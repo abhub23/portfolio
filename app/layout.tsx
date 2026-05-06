@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     siteName: 'https://abdullahtech.dev',
     images: [
       {
-        url: 'https://abdullahtech.dev/og-image.png',
+        url: 'https://abdullahtech.dev/og-image.jpg',
         width: 1200,
         height: 630,
       },
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
     title: 'abdullah_twt23',
     description: 'abdullahtech.dev',
     images: {
-      url: 'https://abdullahtech.dev/og-image.png',
+      url: 'https://abdullahtech.dev/og-image.jpg',
       type: 'image/png',
     },
   },
