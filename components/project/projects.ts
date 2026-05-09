@@ -36,30 +36,6 @@ export const projects = [
     imgLink: '/projects/chat.png',
   },
   {
-    title: 'Github Metrics',
-    desc: "Now you can Compare your Github Stats with the best in the world, be it Torvalds, Karpathy, Harkirat and who not. You think you're doing your best? have better PR's than someone? Lets see here mate.",
-    srcLink: 'https://github.com/abhub23/Github-Metrics',
-    webLink: 'https://githubstats.abdullahtech.dev',
-    skills: ['Typescript', 'React', 'Express', 'TailwindCSS', 'Vite', 'Gemini', 'Zustand'],
-    imgLink: '/projects/githublogo.png',
-  },
-  {
-    title: 'React Flip Game',
-    desc: 'Created a Fun to play Memory Game using React and TypeScript with dynamic grids support, dark and light themes and easy to hard levels with a very cool UI to interact with. Hope you enjoy it.',
-    srcLink: 'https://github.com/abhub23/React-Flip-Game',
-    webLink: 'https://flipgame.abdullahtech.dev/',
-    skills: ['Typescript', 'React', 'TailwindCSS', 'next - themes', 'grids', 'Vercel', 'Zustand'],
-    imgLink: '/projects/flipgame.webp',
-  },
-  {
-    title: 'Go Http Server',
-    desc: 'Made an Http Server in Go from scratch. A reliable Tcp connection using go std net library and unix system calls interacting with low level networking of the operating system.',
-    srcLink: 'https://github.com/abhub23/http-Server-Go',
-    webLink: 'https://github.com/abhub23/http-Server-Go',
-    skills: ['Golang', 'Networking', 'HTTP', 'Operating System', 'TCP', 'Sys Calls', 'Unix'],
-    imgLink: '/projects/gologo.webp',
-  },
-  {
     title: 'Draw',
     desc: 'Draw app that lets you sketch freely with smooth strokes, vibrant colors, and an intuitive interface, delivering a fast, minimal, and immersive digital drawing experience.',
     srcLink: 'https://github.com/abhub23/draw',
@@ -67,4 +43,12 @@ export const projects = [
     skills: ['Typescript', 'Next js', 'React', 'Canvas', 'TailwindCSS', 'Vercel', 'Zustand'],
     imgLink: '/projects/draw.jpg',
   },
+  {
+    title: 'Github Metrics',
+    desc: "Now you can Compare your Github Stats with the best in the world, be it Torvalds, Karpathy, Harkirat and who not. You think you're doing your best? have better PR's than someone? Lets see here mate.",
+    srcLink: 'https://github.com/abhub23/Github-Metrics',
+    webLink: 'https://githubstats.abdullahtech.dev',
+    skills: ['Typescript', 'React', 'Express', 'TailwindCSS', 'Vite', 'Gemini', 'Zustand'],
+    imgLink: '/projects/githublogo.png',
+  }
 ];
