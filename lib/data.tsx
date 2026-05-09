@@ -12,7 +12,6 @@ import Github from '@/components/ui/svgs/Github';
 import Javascript from '@/components/ui/svgs/Javascript';
 import Linux from '@/components/ui/svgs/Linux';
 import MongoDB from '@/components/ui/svgs/MongoDB';
-import Postman from '@/components/ui/svgs/Postman';
 import Prisma from '@/components/ui/svgs/Prisma';
 import Redis from '@/components/ui/svgs/Redis';
 import Shadcn from '@/components/ui/svgs/Shadcn';
@@ -44,7 +43,6 @@ export const DATA = {
     { name: 'Shadcn', icon: Shadcn },
     { name: 'Git', icon: Git },
     { name: 'GitHub', icon: Github },
-    { name: 'Postman', icon: Postman },
     { name: 'Drizzle', icon: Drizzle },
     { name: 'Zustand', icon: Zustland },
     { name: 'Tanstack', icon: Tanstack },
