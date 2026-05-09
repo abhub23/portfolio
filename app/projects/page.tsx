@@ -5,17 +5,12 @@ import { Bricolage } from '@/utils/fonts';
 import { usePathname } from 'next/navigation';
 import { motion } from 'motion/react';
 import { projects } from '@/components/project/projects';
-import { useState } from 'react';
-import { Loadbtn } from '@/components/project/Loadbtn';
 import { cn } from '@/lib/utils';
 import { Animation, Transition } from '@/lib/animation';
-// import { ChevronDownIcon } from '@radix-ui/themes';
-// import { ChevronUpIcon } from '@radix-ui/react-icons';
 
 function Projects() {
   const pathname = usePathname();
 
-  const [num, setNum] = useState(6);
 
   return (
     <div className={cn('bg-neutral-50 dark:bg-neutral-950', pathname == '/projects' && 'h-screen')}>
@@ -35,7 +30,7 @@ function Projects() {
         </p>
         <div className="flex w-full justify-center">
           <div className="mx-auto mb-8 grid justify-center gap-4 lg:grid-cols-2">
-            {projects.slice(0, num).map((val, idx) => (
+            {projects.map((val, idx) => (
               <Card
                 key={idx}
                 Title={val.title}
@@ -48,14 +43,6 @@ function Projects() {
             ))}
           </div>
         </div>
-
-        {/* { projects.length != num ? (
-        <div className="flex justify-center lg:mt-[-24px]">
-          <Loadbtn name='Load more' onClick={() => setNum(c => c + 2)} icon={<ChevronDownIcon />} />
-        </div>
-      ) : projects.length == num ? <div className="flex justify-center lg:mt-[-24px]">
-        <Loadbtn name='Show less' onClick={() => setNum(c => c > 6 ? c - 2 : c - 0)} icon={<ChevronUpIcon />} /> </div> : <></>
-      } */}
       </motion.div>
     </div>
   );
